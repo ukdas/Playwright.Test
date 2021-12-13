@@ -1,6 +1,6 @@
 import { PlaywrightTestConfig } from "@playwright/test";
 
-const outputDirectory = ".";
+const outputDirectory = "./artifacts";
 
 const config: PlaywrightTestConfig = {
 	name: "Integration Tests",
@@ -28,7 +28,7 @@ const config: PlaywrightTestConfig = {
 			{
 				outputFile:
                 outputDirectory +
-					"/artifacts/testResults/test-results.xml",
+					"/testResults/test-results.xml",
 			},
 		],
 	],
