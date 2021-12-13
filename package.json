@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "playwrightintegrationtests": "file:",
+    "tslib": "^2.3.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.17.1"
+  },
+  "name": "playwrightintegrationtests",
+  "version": "1.0.0",
+  "main": "playwright.config.js",
+  "scripts": {
+    "test": "npx playwright test"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

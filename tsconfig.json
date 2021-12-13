@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "forceConsistentCasingInFileNames": true,
+        "importHelpers": true,
+        "strict": true,
+        "target": "es5",
+        "esModuleInterop": true
+    }
+}
