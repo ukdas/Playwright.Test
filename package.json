@@ -1,9 +1,23 @@
 {
+  "name": "playwright.test.runner",
+  "description": "Playwright Test Validation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ukdas/Playwright.Test.Runner.git"
+  },
+  "author": "ukdas",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ukdas/Playwright.Test.Runner/issues"
+  },
+  "homepage": "https://github.com/ukdas/Playwright.Test.Runner#readme",
   "scripts": {
     "test": "npx playwright test"
   },
-
   "dependencies": {
+    "playwright.test.runner": "file:",
     "tslib": "^2.3.1"
   },
   "devDependencies": {
