@@ -32,7 +32,7 @@ const config: PlaywrightTestConfig = {
 			},
 		],
 	],
-	retries: 0,
+	retries: 2,
 	testDir: "src",
 	timeout: 240000,
 	testMatch: ["**/tests/**/*.test.ts"],
